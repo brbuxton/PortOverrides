@@ -163,7 +163,7 @@ template_index = get_Template_Index()
 print(json.dumps(list_networks(),indent=4))
 
 # now set the networkId to the network you want to check the diff of
-networkId = 'L_669910444571374524'
+networkId = 'Your Network Here'
 
 network_switches = get_switches_in_network(networkId)
 # print(network_switches)
